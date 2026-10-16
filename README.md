@@ -3,9 +3,23 @@
 Personal Bash, Git, GNOME and VS Code preferences, with a previewable restore
 command and local backups. Captured from Ubuntu 24.04 / GNOME 46 on 2026-10-16.
 
-Clone this repository onto the destination machine. A link alone does not apply
-settings, and this repository is not an agent skill. An agent can use the README
-to run the same commands you would run yourself.
+## During Ubuntu USB installation
+
+Choose **Automated Installation** and paste the raw YAML URL:
+
+```text
+https://raw.githubusercontent.com/jamwujustyle/workstation-setup/master/autoinstall.yaml
+```
+
+The profile keeps disk, encryption and account questions interactive. It installs
+CLI/desktop dependencies during installation, then applies preferences and the
+[agent-playbook](https://github.com/jamwujustyle/agent-playbook) at first GNOME login.
+See [Ubuntu installer setup](docs/ubuntu-install.md) for details and verification limits.
+
+## On an existing installation
+
+Clone this repository onto the destination machine. The following commands apply
+workstation preferences. The USB profile additionally runs the policy installer.
 
 ```bash
 git clone git@github.com:jamwujustyle/workstation-setup.git
@@ -116,9 +130,8 @@ in [Audit](docs/audit.md).
 This is an Ubuntu/GNOME baseline, not a cross-platform system image. Bash and
 editor files can be reused elsewhere after reviewing their paths and available
 tools; macOS, Windows and other desktop environments are not verified targets.
-Ubuntu's installer file automates OS installation; it does not export these
-personal application preferences. See the official
-[Ubuntu Desktop installation guide](https://ubuntu.com/desktop/docs/en/24.04/tutorial/install-ubuntu-desktop/).
+The included Autoinstall YAML connects Ubuntu's installer to these saved
+preferences; it does not infer or export them from another machine.
 
 Run the focused checks without touching live settings:
 

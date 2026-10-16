@@ -103,9 +103,11 @@ state or audio-plugin content is copied.
 ## Ubuntu's installer import
 
 Ubuntu 24.04's graphical installer accepts an Autoinstall YAML configuration.
-That configures the OS installation itself. This repository instead restores
-user preferences and selected applications after installation, so it also works
-on an existing compatible desktop. It does not select disks or partition them.
+That configures the OS installation itself. This repository now includes an
+[Autoinstall profile](ubuntu-install.md) that installs selected dependencies and
+queues preference/policy setup for the first graphical login. It keeps disk and
+account choices interactive. The standalone restore commands also work on an
+existing compatible desktop.
 See [Ubuntu's installation guide](https://ubuntu.com/desktop/docs/en/24.04/tutorial/install-ubuntu-desktop/)
 and [Canonical's Autoinstall introduction](https://canonical-subiquity.readthedocs-hosted.com/en/latest/intro-to-autoinstall.html).
 

@@ -1,0 +1,8 @@
+dconf-cli
+fonts-firacode
+fonts-jetbrains-mono
+gnome-shell-extension-manager
+gnome-terminal
+libnotify-bin
+pavucontrol
+python3-gi

@@ -1,0 +1,191 @@
+{
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "bash (MSYS2)": {
+      "path": "C:\\msys64\\usr\\bin\\bash.exe",
+      "args": [
+        "--login",
+        "-i"
+      ],
+      "env": {
+        "CHERE_INVOKING": "1"
+      }
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": [
+        "-d",
+        "Ubuntu"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.allowChords": false,
+  "code-runner.runInTerminal": true,
+  "terminal.integrated.tabs.defaultIcon": "github",
+  "terminal.integrated.tabs.defaultColor": "terminal.ansiCyan",
+  "editor.wordWrap": "on",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "underline",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.fontLigatures": true,
+  "workbench.colorCustomizations": {
+    "terminal.background": "#0d1117",
+    "terminal.foreground": "#c9d1d9",
+    "terminalCursor.foreground": "#58a6ff",
+    "terminal.ansiBlack": "#484f58",
+    "terminal.ansiRed": "#ff7b72",
+    "terminal.ansiGreen": "#3fb950",
+    "terminal.ansiYellow": "#d29922",
+    "terminal.ansiBlue": "#58a6ff",
+    "terminal.ansiMagenta": "#bc8cff",
+    "terminal.ansiCyan": "#76e3ea",
+    "terminal.ansiWhite": "#f0f6fc"
+  },
+  "files.autoSave": "onFocusChange",
+  "terminal.integrated.defaultProfile.linux": "bash (2)",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    },
+    "bash (2)": {
+      "path": "/usr/bin/bash"
+    }
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.formatOnSave": true,
+  "terminal.integrated.localEchoStyle": "dim",
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "expand",
+  "editor.fontFamily": "'Fira Code', 'Courier New', monospace",
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": true,
+  "editor.smoothScrolling": true,
+  "editor.lineHeight": 22,
+  "files.trimTrailingWhitespace": true,
+  "json.schemas": [],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "workbench.startupEditor": "none",
+  "terminal.integrated.automationProfile.linux": {},
+  "terminal.integrated.altClickMovesCursor": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.iconTheme": "vscode-icons",
+  "git.openRepositoryInParentFolders": "never",
+  "files.exclude": {
+    "**/__pycache__": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "python": false
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "terminal.integrated.inheritEnv": false,
+  "code-runner.ignoreSelection": true,
+  "terminal.integrated.env.windows": {
+    "PATH": "C:\\Program Files\\nodejs;${env:PATH}"
+  },
+  "prettier.experimentalTernaries": true,
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "kotlin.languageServer.enabled": false,
+  "kotlin.debugAdapter.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.stickyScroll.enabled": true,
+  "window.commandCenter": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.tree.indent": 16,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.zip": "default"
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "code-runner.executorMap": {
+    "go": "cd $dir && if [ -f Makefile ] || [ -f makefile ]; then make; elif [ -f go.mod ]; then go run .; else go run $fileName; fi"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "none"
+    },
+    "gopls": {
+      "ui.semanticTokens": true
+    },
+    "[go]": {
+      "editor.semanticHighlighting.enabled": true
+    },
+    "go.formatTool": "gofmt",
+    "go.toolsManagement.autoUpdate": true
+  },
+  "makefile.configureOnOpen": false,
+  "terminal.integrated.stickyScroll.enabled": false,
+  "explorer.confirmPasteNative": false,
+  "workbench.colorTheme": "Dark Modern",
+  "chatgpt.followUpQueueMode": "steer",
+  "roo-cline.debug": false,
+  "roo-cline.allowedCommands": [
+    "git log",
+    "git diff",
+    "git show"
+  ],
+  "roo-cline.deniedCommands": [],
+  "deepseek.model": "deepseek-v4-pro",
+  "deepseek.maxTokens": 8192
+}

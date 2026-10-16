@@ -1,0 +1,45 @@
+{
+  "node": [
+    "v22.22.0"
+  ],
+  "python_pyenv": [],
+  "go": "go1.26.0",
+  "nvm_default": "22",
+  "observed_date": "2026-10-16",
+  "os": "Ubuntu 24.04.5 LTS",
+  "architecture": "amd64",
+  "nvm": "0.39.7",
+  "npm": "10.9.4",
+  "python_system": "3.12.3",
+  "git": "2.43.0",
+  "ble_sh": "0.4.0-devel4+2f564e63",
+  "foundry": {
+    "forge": "1.5.1-stable",
+    "cast": "1.5.1-stable",
+    "anvil": "1.5.1-stable"
+  },
+  "starship": "1.24.1",
+  "fonts_present": [
+    "3270 Nerd Font",
+    "3270 Nerd Font Mono",
+    "3270 Nerd Font Propo",
+    "JetBrains Mono"
+  ],
+  "fonts_missing": [
+    "Fira Code"
+  ],
+  "optional_presence": {
+    "yabridge": true,
+    "fish": false,
+    "flatpak": false
+  },
+  "missing_packages_referenced_by_settings": [
+    "git-lfs",
+    "fonts-firacode"
+  ],
+  "yabridge": "yabridgectl 5.1.1",
+  "font_3270_sample_metadata": [
+    "3270 Nerd Font,3270 Nerd Font Cond",
+    "196608"
+  ]
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "name": "firefox",
+    "version": "157.0.1-1",
+    "revision": "9036",
+    "channel": "latest/stable",
+    "classic": false
+  },
+  {
+    "name": "helm",
+    "version": "4.3.1",
+    "revision": "555",
+    "channel": "latest/stable",
+    "classic": true
+  },
+  {
+    "name": "just",
+    "version": "1.58.0",
+    "revision": "40",
+    "channel": "latest/stable",
+    "classic": true
+  },
+  {
+    "name": "kubectl",
+    "version": "1.35.9",
+    "revision": "3855",
+    "channel": "latest/stable",
+    "classic": true
+  },
+  {
+    "name": "ngrok",
+    "version": "3.39.11",
+    "revision": "429",
+    "channel": "v3/stable",
+    "classic": false
+  },
+  {
+    "name": "postman",
+    "version": "11.71.7",
+    "revision": "360",
+    "channel": "v11/stable",
+    "classic": false
+  },
+  {
+    "name": "spotify",
+    "version": "1.3.4.258.gc60b10b0946a",
+    "revision": "102",
+    "channel": "latest/candidate",
+    "classic": false
+  },
+  {
+    "name": "telegram-desktop",
+    "version": "7.3.1",
+    "revision": "7169",
+    "channel": "latest/stable",
+    "classic": false
+  },
+  {
+    "name": "thunderbird",
+    "version": "157.0.1-1",
+    "revision": "1282",
+    "channel": "latest/stable",
+    "classic": false
+  }
+]

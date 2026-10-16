@@ -1,0 +1,28 @@
+{
+  "observed_date": "2026-10-16",
+  "os": "Ubuntu 24.04.5 LTS",
+  "apt_manual_raw_count": 376,
+  "apt_manual_installed_normalized_count": 360,
+  "normalized_architecture_suffixes": true,
+  "manual_inventory_is_install_specification": false,
+  "curated_group_counts": {
+    "cli": 19,
+    "desktop": 8,
+    "development": 16
+  },
+  "curated_packages_not_installed": {
+    "cli": [
+      "git-lfs"
+    ],
+    "desktop": [
+      "fonts-firacode"
+    ],
+    "development": []
+  },
+  "residual_config_only": [
+    "fish",
+    "flatpak"
+  ],
+  "legacy_docker_compose_installed": "1.29.2-6ubuntu1",
+  "installed_status_check": "dpkg db:Status-Status equals installed before architecture normalization"
+}

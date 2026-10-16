@@ -1,0 +1,47 @@
+[
+  {
+    "name": "firefox",
+    "channel": "latest/stable",
+    "classic": false
+  },
+  {
+    "name": "helm",
+    "channel": "latest/stable",
+    "classic": true
+  },
+  {
+    "name": "just",
+    "channel": "latest/stable",
+    "classic": true
+  },
+  {
+    "name": "kubectl",
+    "channel": "latest/stable",
+    "classic": true
+  },
+  {
+    "name": "ngrok",
+    "channel": "v3/stable",
+    "classic": false
+  },
+  {
+    "name": "postman",
+    "channel": "v11/stable",
+    "classic": false
+  },
+  {
+    "name": "spotify",
+    "channel": "latest/candidate",
+    "classic": false
+  },
+  {
+    "name": "telegram-desktop",
+    "channel": "latest/stable",
+    "classic": false
+  },
+  {
+    "name": "thunderbird",
+    "channel": "latest/stable",
+    "classic": false
+  }
+]

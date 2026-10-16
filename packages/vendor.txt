@@ -1,0 +1,12 @@
+# Reference only. Install from the official vendor sources in docs/software.md.
+antigravity
+chatgpt
+code
+containerd.io
+docker-buildx-plugin
+docker-ce
+docker-ce-cli
+docker-ce-rootless-extras
+docker-compose-plugin
+google-chrome-stable
+tailscale

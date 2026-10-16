@@ -1,0 +1,323 @@
+{
+  "source_environment": {
+    "os": "Ubuntu 24.04.5 LTS",
+    "desktop": "GNOME Shell 46.0",
+    "session": "Wayland"
+  },
+  "settings": [
+    {
+      "schema": "org.gnome.desktop.input-sources",
+      "path": "/org/gnome/desktop/input-sources/",
+      "key": "sources",
+      "type": "a(ss)",
+      "value": "[('xkb', 'us'), ('xkb', 'ru')]"
+    },
+    {
+      "schema": "org.gnome.desktop.input-sources",
+      "path": "/org/gnome/desktop/input-sources/",
+      "key": "xkb-options",
+      "type": "as",
+      "value": "@as []"
+    },
+    {
+      "schema": "org.gnome.desktop.interface",
+      "path": "/org/gnome/desktop/interface/",
+      "key": "color-scheme",
+      "type": "s",
+      "value": "'prefer-dark'"
+    },
+    {
+      "schema": "org.gnome.desktop.interface",
+      "path": "/org/gnome/desktop/interface/",
+      "key": "gtk-theme",
+      "type": "s",
+      "value": "'Yaru-olive-dark'"
+    },
+    {
+      "schema": "org.gnome.desktop.interface",
+      "path": "/org/gnome/desktop/interface/",
+      "key": "icon-theme",
+      "type": "s",
+      "value": "'Yaru-olive-dark'"
+    },
+    {
+      "schema": "org.gnome.desktop.peripherals.mouse",
+      "path": "/org/gnome/desktop/peripherals/mouse/",
+      "key": "speed",
+      "type": "d",
+      "value": "-0.20000000000000015"
+    },
+    {
+      "schema": "org.gnome.desktop.peripherals.touchpad",
+      "path": "/org/gnome/desktop/peripherals/touchpad/",
+      "key": "two-finger-scrolling-enabled",
+      "type": "b",
+      "value": "true"
+    },
+    {
+      "schema": "org.gnome.shell",
+      "path": "/org/gnome/shell/",
+      "key": "enabled-extensions",
+      "type": "as",
+      "value": "['ding@rastersoft.com', 'ubuntu-dock@ubuntu.com', 'tiling-assistant@ubuntu.com', 'clipboard-indicator@tudmotu.com']"
+    },
+    {
+      "schema": "org.gnome.shell",
+      "path": "/org/gnome/shell/",
+      "key": "disable-user-extensions",
+      "type": "b",
+      "value": "false"
+    },
+    {
+      "schema": "org.gnome.shell",
+      "path": "/org/gnome/shell/",
+      "key": "favorite-apps",
+      "type": "as",
+      "value": "['spotify_spotify.desktop', 'code.desktop']"
+    },
+    {
+      "schema": "org.gnome.shell.extensions.dash-to-dock",
+      "path": "/org/gnome/shell/extensions/dash-to-dock/",
+      "key": "dash-max-icon-size",
+      "type": "i",
+      "value": "24"
+    },
+    {
+      "schema": "org.gnome.shell.extensions.dash-to-dock",
+      "path": "/org/gnome/shell/extensions/dash-to-dock/",
+      "key": "dock-position",
+      "type": "s",
+      "value": "'LEFT'"
+    },
+    {
+      "schema": "org.gnome.shell.extensions.dash-to-dock",
+      "path": "/org/gnome/shell/extensions/dash-to-dock/",
+      "key": "dock-fixed",
+      "type": "b",
+      "value": "true"
+    },
+    {
+      "schema": "org.gnome.shell.extensions.dash-to-dock",
+      "path": "/org/gnome/shell/extensions/dash-to-dock/",
+      "key": "extend-height",
+      "type": "b",
+      "value": "true"
+    },
+    {
+      "schema": "org.gnome.shell.extensions.ding",
+      "path": "/org/gnome/shell/extensions/ding/",
+      "key": "show-home",
+      "type": "b",
+      "value": "false"
+    },
+    {
+      "schema": "org.gnome.shell.extensions.tiling-assistant",
+      "path": "/org/gnome/shell/extensions/tiling-assistant/",
+      "key": "active-window-hint-color",
+      "type": "s",
+      "value": "'rgb(211,70,21)'"
+    },
+    {
+      "schema": "org.gnome.desktop.session",
+      "path": "/org/gnome/desktop/session/",
+      "key": "idle-delay",
+      "type": "u",
+      "value": "uint32 0"
+    },
+    {
+      "schema": "org.gnome.settings-daemon.plugins.power",
+      "path": "/org/gnome/settings-daemon/plugins/power/",
+      "key": "sleep-inactive-ac-timeout",
+      "type": "i",
+      "value": "3600"
+    },
+    {
+      "schema": "org.gnome.settings-daemon.plugins.power",
+      "path": "/org/gnome/settings-daemon/plugins/power/",
+      "key": "sleep-inactive-ac-type",
+      "type": "s",
+      "value": "'nothing'"
+    },
+    {
+      "schema": "org.gnome.Terminal.Legacy.Settings",
+      "path": "/org/gnome/terminal/legacy/",
+      "key": "theme-variant",
+      "type": "s",
+      "value": "'system'"
+    },
+    {
+      "schema": "org.gnome.desktop.wm.keybindings",
+      "path": "/org/gnome/desktop/wm/keybindings/",
+      "key": "switch-input-source",
+      "type": "as",
+      "value": "['<Alt>Shift_L']"
+    },
+    {
+      "schema": "org.gnome.shell.keybindings",
+      "path": "/org/gnome/shell/keybindings/",
+      "key": "toggle-message-tray",
+      "type": "as",
+      "value": "@as []"
+    },
+    {
+      "schema": "org.gnome.Terminal.Legacy.Keybindings",
+      "path": "/org/gnome/terminal/legacy/keybindings/",
+      "key": "close-tab",
+      "type": "s",
+      "value": "'<Primary><Shift>w'"
+    },
+    {
+      "schema": "org.gnome.Terminal.Legacy.Keybindings",
+      "path": "/org/gnome/terminal/legacy/keybindings/",
+      "key": "copy",
+      "type": "s",
+      "value": "'<Primary>c'"
+    },
+    {
+      "schema": "org.gnome.Terminal.Legacy.Keybindings",
+      "path": "/org/gnome/terminal/legacy/keybindings/",
+      "key": "new-tab",
+      "type": "s",
+      "value": "'<Primary><Shift>t'"
+    },
+    {
+      "schema": "org.gnome.Terminal.Legacy.Keybindings",
+      "path": "/org/gnome/terminal/legacy/keybindings/",
+      "key": "paste",
+      "type": "s",
+      "value": "'<Primary>v'"
+    },
+    {
+      "schema": "org.gnome.Terminal.Legacy.Keybindings",
+      "path": "/org/gnome/terminal/legacy/keybindings/",
+      "key": "zoom-in",
+      "type": "s",
+      "value": "'<Primary>equal'"
+    },
+    {
+      "schema": "org.gnome.settings-daemon.plugins.media-keys",
+      "path": "/org/gnome/settings-daemon/plugins/media-keys/",
+      "key": "next",
+      "type": "as",
+      "value": "['F8']"
+    },
+    {
+      "schema": "org.gnome.settings-daemon.plugins.media-keys",
+      "path": "/org/gnome/settings-daemon/plugins/media-keys/",
+      "key": "previous",
+      "type": "as",
+      "value": "['F7']"
+    },
+    {
+      "schema": "org.gnome.Terminal.ProfilesList",
+      "path": "/org/gnome/terminal/legacy/profiles:/",
+      "key": "list",
+      "type": "as",
+      "value": "['b1dcc9dd-5262-4d8d-a863-c897e6d979b9']"
+    },
+    {
+      "schema": "org.gnome.Terminal.ProfilesList",
+      "path": "/org/gnome/terminal/legacy/profiles:/",
+      "key": "default",
+      "type": "s",
+      "value": "'b1dcc9dd-5262-4d8d-a863-c897e6d979b9'"
+    },
+    {
+      "schema": "org.gnome.Terminal.Legacy.Profile",
+      "path": "/org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/",
+      "key": "audible-bell",
+      "type": "b",
+      "value": "false"
+    },
+    {
+      "schema": "org.gnome.Terminal.Legacy.Profile",
+      "path": "/org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/",
+      "key": "background-color",
+      "type": "s",
+      "value": "'rgb(0,0,0)'"
+    },
+    {
+      "schema": "org.gnome.Terminal.Legacy.Profile",
+      "path": "/org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/",
+      "key": "foreground-color",
+      "type": "s",
+      "value": "'rgb(255,255,255)'"
+    },
+    {
+      "schema": "org.gnome.Terminal.Legacy.Profile",
+      "path": "/org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/",
+      "key": "use-theme-colors",
+      "type": "b",
+      "value": "false"
+    },
+    {
+      "schema": "org.gnome.Terminal.Legacy.Profile",
+      "path": "/org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/",
+      "key": "use-theme-transparency",
+      "type": "b",
+      "value": "false"
+    },
+    {
+      "schema": "org.gnome.shell.extensions.clipboard-indicator",
+      "path": "/org/gnome/shell/extensions/clipboard-indicator/",
+      "key": "toggle-menu",
+      "type": "as",
+      "value": "['<Super>v']"
+    }
+  ],
+  "extensions": [
+    {
+      "uuid": "clipboard-indicator@tudmotu.com",
+      "name": "Clipboard Indicator",
+      "version": 71,
+      "supported_shell_versions": [
+        "46",
+        "47",
+        "48",
+        "49",
+        "50"
+      ],
+      "scope": "user"
+    },
+    {
+      "uuid": "ding@rastersoft.com",
+      "name": "Desktop Icons NG (DING)",
+      "version": null,
+      "supported_shell_versions": [
+        "45",
+        "46"
+      ],
+      "scope": "system"
+    },
+    {
+      "uuid": "tiling-assistant@ubuntu.com",
+      "name": "Ubuntu Tiling Assistant",
+      "version": 46,
+      "supported_shell_versions": [
+        "45",
+        "46"
+      ],
+      "scope": "system"
+    },
+    {
+      "uuid": "ubuntu-appindicators@ubuntu.com",
+      "name": "Ubuntu AppIndicators",
+      "version": null,
+      "supported_shell_versions": [
+        "45",
+        "46"
+      ],
+      "scope": "system"
+    },
+    {
+      "uuid": "ubuntu-dock@ubuntu.com",
+      "name": "Ubuntu Dock",
+      "version": 90,
+      "supported_shell_versions": [
+        "45",
+        "46"
+      ],
+      "scope": "system"
+    }
+  ]
+}

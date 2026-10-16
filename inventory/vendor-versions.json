@@ -1,0 +1,13 @@
+{
+  "antigravity": "1.23.2-1776332190",
+  "chatgpt": "26.1007.21434",
+  "code": "1.141.0-1791276758",
+  "containerd.io": "2.4.1-2~ubuntu.24.04~noble",
+  "docker-buildx-plugin": "0.38.0-1~ubuntu.24.04~noble",
+  "docker-ce": "5:29.9.0-1~ubuntu.24.04~noble",
+  "docker-ce-cli": "5:29.9.0-1~ubuntu.24.04~noble",
+  "docker-ce-rootless-extras": "5:29.9.0-1~ubuntu.24.04~noble",
+  "docker-compose-plugin": "5.6.0-1~ubuntu.24.04~noble",
+  "google-chrome-stable": "155.0.8059.39-1",
+  "tailscale": "1.104.1"
+}
